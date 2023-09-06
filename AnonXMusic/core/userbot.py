@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenAssociation")
+                await self.two.join_chat("The_MoodLiGHT")
+                await self.one.join_chat("NomoreFeelings")
             except:
                 pass
             assistants.append(2)
